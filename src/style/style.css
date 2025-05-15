@@ -1,0 +1,45 @@
+.dropdown-toggle,
+.dropdown-content {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.dropdown-content {
+    list-style-type: none;
+    text-align: center;
+}
+
+.dropdown-content li,
+.dropdown-toggle {
+    font-size: 2rem;
+}
+
+.dropdown-content li {
+    border: solid grey 5px;
+    background-color: rgb(29, 24, 24);
+    color: white;
+    padding: 10px;
+}
+
+.dropdown-content li:hover {
+    background-color: rgb(186, 159, 159);
+    color: black;
+}
+
+.dropdown-toggle {
+    padding: 10px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
