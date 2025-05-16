@@ -1,5 +1,6 @@
 import "./style/style.css";
-import dropdown from "./modules/dropdown.js";
+// import dropdown from "./modules/dropdown.js";
+import dropdown from "create-dropdown-logic";
 
 // Query the hardcoded dropdown button and options
 const dropButton1 = document.querySelector(".dropdown-toggle.drop1");
@@ -13,5 +14,3 @@ const dropdown2 = dropdown(dropButton2, dropContent2);
 
 dropdown1.createDropDownLogic();
 dropdown2.createDropDownLogic();
-
-// module.exports = dropdown;
