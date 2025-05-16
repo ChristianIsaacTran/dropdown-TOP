@@ -1,7 +1,4 @@
 {
-  "name":"dropdown-menu-logic",
-  "version": "1.0.1",
-  "description": "This contains logic for a basic html dropdown menu.",
   "devDependencies": {
     "@eslint/js": "^9.26.0",
     "css-loader": "^7.1.2",
